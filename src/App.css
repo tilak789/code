@@ -13,16 +13,29 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-header{
+  background-color:rgb(212,192,201);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(240, 230, 236);
 }
+.App-header1{
+  background-color:rgb(212,192,201);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(240, 230, 236);
+  margin-left: -641px;
+}
+
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +48,237 @@
   to {
     transform: rotate(360deg);
   }
+}
+.textField{
+  height: 40px;
+  width: 400px;
+  margin-bottom: 2%;
+}
+.textField01{
+  height: 40px;
+  width: 530px;
+  margin-bottom: 2%;
+}
+.registerTitle{
+  background-color: rgb(68,0,1);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(240, 230, 236);
+}
+.submitButton{
+  background-color: #134553;
+  color:#fff;
+  padding: 5px;
+  width: 150px;
+  margin-bottom: 1%;
+  font-size: medium;
+  outline: none;
+  border: none;
+}
+.textUser{
+  color: #000;
+}
+.textLogin{
+  color: blue;
+}
+.instituteheader1{
+  background-color: rgb(121,121,121);
+  padding: 5px;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-wrap:nowrap ;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: rgb(25, 24, 25);
+  height: 600px;
+}
+.instituteheader{
+  background-color: rgb(183,183,183);
+  padding: 5px;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-wrap:nowrap ;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: rgb(25, 24, 25);
+  height: 600px;
+}
+.acadmey{
+  background-color: rgb(14, 72, 30);
+  padding: 5px;
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 1vmin);
+  color: rgb(240, 230, 236);
+}
+.textField1 {
+   background-color: rgb(196,196,196);
+    height: 70px;
+    width: 400px;
+   margin-top: 1%;
+    margin-bottom: 10%;
+    color:#000
+  
+}
+.textField2 {
+   background-color: rgba(237, 228, 228, 0.83);
+    height: 100px;
+    width: 400px;
+    margin-bottom: 10%;
+    color: #000;
+}
+.submitButton1{
+  background-color: #137e5c;
+  color:#fff;
+  padding: 5px;
+  width: 150px;
+  margin-bottom: 1%;
+  font-size: medium;
+  display: inline-block;
+  outline: none;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 17px;
+}
+.textField3 {
+   background-color: rgb(196,196,196);
+    height: 180px;
+    width: 400px;
+    margin-bottom: 10%;
+    color: #000;
+}
+.textField4 {
+   background-color: white;
+    height: 50px;
+    width: 350px;
+    margin-bottom: 10%;
+    color: #000;
+    text-align: center;
+    border: 0px;
+    margin-right: 46px;
+    font-size: 12px;
+}
+.adressdetails{
+ background-color: rgb(221,221,221);
+     width: 96%;
+}
+.studentSide1{
+  width: 500px; 
+  padding: 30px;
+}
+.studetdiv1{
+  display: flex;
+    position: relative;
+   flex-wrap: wrap;
+}
+label{
+  color: black;
+    padding: 17px;
+}
+.studentBody{
+  background-color: rgb(183,183,183);
+    /* padding: 5px; */
+    /* width: 100%; */
+    margin-top: 1%;
+    /* margin-bottom: 1%; */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: rgb(25, 24, 25);
+    height: 540px;
+    overflow: hidden;
+}
+
+
+.studentHeader{
+    text-align: center;
+    background-color: green;
+    height: 33px;
+    color: #fff;
+    font-size: 20px;
+}
+.searchbutton{
+  background-color: #137e5c;
+  color:#fff;
+  padding: 5px;
+  width: 150px;
+}
+.mark{
+  margin-top: 5%;
+    background-color: rgb(196,196,196);
+   height: 40px;
+    width: 260px;
+  margin-bottom: 2%;
+   font-size: 18px;
+}
+.studentHeader1{
+    text-align: center;
+    background-color: green;
+    height: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 12px;
+  width: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.acadmeydetails{
+     width: 10%;
+    margin-top: 9%;
+    
+}
+.searchbutton{
+    margin-top: 3%;
+}
+.table{
+  background-color: rgb(196,196,196);
+}
+.text1{
+  margin-left: 30%;
+    width: 30%;
+}
+.studentHeader2{
+    text-align: center;
+    background-color: rgb(156, 10, 127);
+    height: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.logoff{
+  margin-left: 92%;
 }

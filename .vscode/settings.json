@@ -1,0 +1,10 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.editor.decorations.colors": true
+}
